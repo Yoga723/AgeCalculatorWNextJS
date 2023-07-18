@@ -35,7 +35,7 @@ const Forms = ({ onFormSubmit, changeShowData }: any) => {
     }
   };
   return (
-    <div className="text-black bg-white">
+    <div className="text-black bg-white p-4">
       <form
         onSubmit={handleSubmit}
         className="grid grid-cols-3 gap-2 p-2 overflow-hidden"
@@ -119,7 +119,7 @@ const Forms = ({ onFormSubmit, changeShowData }: any) => {
         </div>
         {/* button */}
         <div className="grid col-start-1 col-span-3 items-center justify-center md:justify-end relative my-2 mt-4 md:my-0">
-          <button className="bg-[rgba(136,79,255)] rounded-full relative z-10 mr-9">
+          <button className="bg-[rgba(136,79,255)] rounded-full relative z-10 md:mr-9">
             <span>
               <Image
                 src={SubmitArrow}

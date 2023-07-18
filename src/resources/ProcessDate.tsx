@@ -57,16 +57,6 @@ const CalculateData = (
 
   return { totalDayFormatted, totalMonthFormatted, totalYearFormatted };
 
-  // potential to covert value into new date. Tapi jigana tekudu sih.
-  // Keep just in case
-  // create a date variable
-
-  // const contohDate = new Date(`${day}/${month}/${year} GMT`)
-  // var date = new Date("2022-5-19 GMT");
-  // // print the date
-  // console.log(date);
-  // var date2 = new Date("2022/5/19 GMT");
-  // console.log(date2);
 };
 
 export default CalculateData;

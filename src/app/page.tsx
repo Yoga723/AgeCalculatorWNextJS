@@ -35,8 +35,11 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-screen w-screen items-center justify-center p-4">
-      <main className="rounded-2xl rounded-br-[6rem] border-2 shadow-[10px_30px_60px_-15px_rgba(136,79,255,3)] overflow-hidden">
+    <div className="relative flex h-screen w-screen items-center justify-center p-4">
+      {/* nyobaan niey color bg tapi masih hoream ceng */}
+      {/* <div className="absolute left-0 top-0 w-24 h-24 bg-gradient-to-r from-[rgb(136,79,255)] from-40% via-[rgb(140,150,255)] via-60% rounded-full shrink-0 grow-0"></div> */}
+
+      <main className="rounded-2xl rounded-br-[6rem]  overflow-hidden border-2 shadow-[10px_30px_60px_-15px_rgba(136,79,255,3)]">
         {/* eta onFormSubmit teh lain bawaan tapi ngaran ti parameter form komponen */}
         <Forms
           onFormSubmit={handleFormSubmit}
